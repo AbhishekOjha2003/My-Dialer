@@ -282,7 +282,7 @@ TWILIO_TWIML_APP_SID=APXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 TWILIO_CALLER_ID=+1234567890
 
 # Google Sheets CRM Configuration
-GOOGLE_CLIENT_EMAIL=your-service-account@project.iam.gserviceaccount.com
+GOOGLE_CLIENT_EMAIL=Service-account@project.iam.gserviceaccount.com
 GOOGLE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC...\n-----END PRIVATE KEY-----\n"
 SHEET_ID=your_google_sheet_id_here
 ```
