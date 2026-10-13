@@ -125,7 +125,7 @@ Contacts and leads are synchronized in real-time from a **Google Sheet**. With o
 4. The server sanitizes the destination phone number and returns a TwiML response:
    ```xml
    <Response>
-     <Dial callerId="+16469044198"
+     <Dial callerId="#"
            answerOnBridge="true"
            action="/api/voice/dial-status"
            method="POST"
@@ -275,9 +275,9 @@ Configure the following variables in `.env.local`:
 ```env
 # Twilio Telephony Credentials
 TWILIO_ACCOUNT_SID=ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-TWILIO_AUTH_TOKEN=your_twilio_auth_token
+TWILIO_AUTH_TOKEN=twilio_auth_token
 TWILIO_API_KEY=SKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-TWILIO_API_SECRET=your_twilio_api_secret
+TWILIO_API_SECRET=twilio_api_secret
 TWILIO_TWIML_APP_SID=APXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 TWILIO_CALLER_ID=+1234567890
 
