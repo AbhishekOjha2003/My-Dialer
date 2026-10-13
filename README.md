@@ -361,7 +361,7 @@ To populate contacts in the Dialer:
    - `GOOGLE_CLIENT_EMAIL`
    - `GOOGLE_PRIVATE_KEY`
    - `SHEET_ID`
-4. Update your Twilio TwiML App's **Voice Request URL** to your production Vercel domain:
+4. Update Twilio TwiML App's **Voice Request URL** to your production Vercel domain:
    `https://your-domain.vercel.app/api/voice`
 5. Click **Deploy**.
 
